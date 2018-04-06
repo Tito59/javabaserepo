@@ -16,10 +16,13 @@ public class TestExceptionPersonne {
 			unePersonne = new Personne("Msr", "Dj", 5);
 		} catch (NombreEnfantException e) {
 			errorMsg += e.getMessage();
+			System.out.println(errorMsg);
 		} catch (PrenomException e) {
 			errorMsg += e.getMessage();
+			System.out.println(errorMsg);
 		} catch (NomException e) {
 			errorMsg += e.getMessage();
+			System.out.println(errorMsg);
 		}
 	}
 
